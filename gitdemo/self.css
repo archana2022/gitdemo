@@ -1,0 +1,133 @@
+/*h1{
+    text-align: center;
+    color: rgb(129, 2, 2);
+    text-transform: capitalize;
+    
+    
+}
+body{
+    background-color: rgb(194, 233, 117);
+}
+.page
+{
+
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    background-color: rgb(240, 147, 33);
+    justify-content: space-evenly;
+    align-items:center;
+}
+.card{
+    color: rgb(22, 143, 143);
+     text-align: center;
+    background-color: rgb(224, 191, 151);
+    margin: 30px;
+    box-shadow: 0,6px,8px,0 rgb(138, 127, 129);
+    
+    transition: 3sec;
+}
+.card :hover
+{
+color: rgb(7, 235, 166);
+}
+img{
+    height:300px;
+    width:200px;
+    margin: 20px;
+    outline-color: tomato;
+    
+}*/
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1{
+      color: rgb(126, 122, 121);
+  }
+body {
+    line-height: 1;
+    background-color: #60a9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+ul {
+    list-style:none;
+}
+.page {
+    background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.imgcard{
+    margin-bottom: 25px;
+  max-width: 100%;
+}
+h2{
+    color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card{
+    border-bottom: 1px solid #e1f1ff;
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+}
+.card:last-child {
+    border-right: none;
+  }
+a{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+a:hover, a:focus {
+    background-color: #e1f1ff;
+  }
+  a {
+    background-color: #48aaff;
+    color: white;
+  }
+  @media (min-width: 900px){
+    .page {
+      flex-direction: row;
+    }
+}
+ul{
+    margin: 50px 0 25px;
+  color: #016ff9;
+}
+li{
+    font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+}
+li:last-child{
+    border-bottom: 1px solid #e1f1ff;
+  }
+  .price{
+    color: #016ff9; 
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+  }
